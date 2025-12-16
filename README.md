@@ -49,14 +49,16 @@ yay -S wl-clip-persist  # AUR
 
 **For general clipboard use:**
 ```bash
-git clone https://github.com/mrdrbrdr/wl-paste-anywhere.git
-cd wl-paste-anywhere
+git clone https://github.com/mrdrbrdr/screenshot-smart-clipboard.git
+cd screenshot-smart-clipboard
 sudo cp bin/wl-clip-multi /usr/local/bin/
 sudo chmod +x /usr/local/bin/wl-clip-multi
 ```
 
 **For integrated screenshot solution (Hyprland):**
 ```bash
+git clone https://github.com/mrdrbrdr/screenshot-smart-clipboard.git
+cd screenshot-smart-clipboard
 cp bin/screenshot-smart-clipboard ~/.local/bin/
 chmod +x ~/.local/bin/screenshot-smart-clipboard
 ```
